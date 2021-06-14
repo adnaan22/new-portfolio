@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+        <!-- last link is for nav collapse, second last is for font awesome icons, links 1,2 are very imp, always add them, link 3 is bootstrap css -->
+        
+        <style>
+           
+      
+
+             .c {
+       
+        margin:10px;
+        background-color: #90E0EF;
+        border-color:whitesmoke;
+        border: whitesmoke 3px solid;
+        height : 300px;
+    
+        }
+
+            .c:hover{
+
+        background-color: #00B4D8;
+        border: 3px solid blue;
+        color:whitesmoke;
+        }
+        
+        
+        .card {
+                margin: 40px;
+                position: relative;
+                background-color: #03045e ;
+                border: whitesmoke 2px solid;
+            }
+   
+
+
+        .c a:hover{
+            color: hotpink;
+
+        }
+
+        .a {
+                        width: 70%;
+                        border-radius: 50%;
+                        /* position: relative; */
+                        /* right: 100px;  */
+                        margin-top: 9%;
+                        /*margin-right:30px;*/
+                        /* float: right; */
+                        border: whitesmoke 3px solid;
+                        /* display: block; */
+             }
+
+        
+        img:hover{
+            transform: scale(1.15);
+            border: 3px solid blue;
+            
+        }
+
+
+        .btn:focus {
+ 
+            box-shadow: none !important; /*to remove weird border around button when clicked
+                                    added important to remove delay*/
+                    }
+
+
+        .btn:hover {
+            text-decoration: underline;
+            text-underline-position: under;
+            color: blue;
+            background-color: #00B4D8 !important; /* you use !important to overcome other style of background color*/
+            border: solid 2px blue !important;
+                    }
+
+
+ @media screen and (max-width: 767px) {
+    .c {
+        height: auto !important;
+
+    }
+
+    .a {
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+}
+
+.animate__animated.animate__backInLeft {
+  --animate-duration: 1.5s;
+}
+  .animate__animated.animate__backInRight {
+  --animate-duration: 1.5s;
+  }
+        </style>
+    
+    </head>
+
+    <body style="background-color: #010b2c;">
+        
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style= "background-color: #000000; font-family: 'Poppins';">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Adnaan Lalani</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="nav navbar-nav ms-auto">    <!-- ms auto makes things right and ml to left -->
+                                 
+                                 
+                                 
+                    <li class="nav-item">
+                  <a class="nav-item nav-link active" href="resume.html">Résumé <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    
+                  <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+              </div>
+            </div>
+          </nav>
+    
+   
+    
+    
+<div class="card text-center">
+        <div class="animate__animated animate__backInDown">
+            <div class="card-header" style="border-bottom: whitesmoke 2px solid; background-color:#00B4D8; font-size: larger;">
+            <strong> Résumé </strong>
+            </div>
+        </div>
+    
+<div class="container">
+                <div class ="row">
+                    <div class="col-sm">
+                        <div class="c" style="height: auto;">
+                    <div class="animate__animated animate__rubberBand">
+                      <div class="ur" style="text-decoration: underline; text-underline-position: under; display: inline-block;">
+                         <strong><h5>Adnaan Lalani</h5></strong>
+                      </div>
+              <!-- <br> -->
+                        <em><h6>
+                        Full stack web developer, UI/UX designer, Graphic designer, Digital marketeer.
+                        </h6></em>
+                    </div>
+                </div>
+                </div>
+            </div>
+</div>
+
+<div class="container">
+    <div class="animate__animated animate__backInRight animate__slower">
+            <div class="row">
+               
+                <div class="col-md-4">
+                
+                    
+              
+                         <div class="c">
+                         
+                            <img class="a"
+                            
+                        src="hey.jpg"
+                        alt="Profile photo">
+                    
+                            
+                    </div>
+                
+              </div>
+              
+
+                <div class="col-md-4">
+                <div class="c">
+                <div class="card-body" style="font-family: monospace;">
+                    <h5 class="card-title" style="text-decoration: underline; text-underline-position: under;" >EDUCATION</h5>
+                    
+                    <ul class="card-text" style="text-align:left;">
+                    
+                        <li >St.Xavier's high school <br>  2006-2016</li>
+                        <li >KC college    <br> 2016-2018</li>
+                        <li >KJ Somaiya Institute of engineering and IT <br> 2018-2022</li>
+                    
+                    </ul>
+               
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="c">
+                    <div class="card-body" style="font-family: monospace;">
+                        <h5 class="card-title" style="text-decoration: underline; text-underline-position: under;" >QUALIFICATION</h5>
+                        
+                        <ul class="card-text" style="text-align:left;">
+                        
+                            <li >SSC (10th std)<br>90.20%</li>
+                            <li >HSC (12th std)<br>81.54%</li>
+                            <li >Bachelor's of Technology (presently pursuing)<br>7.75 GPA (5 semesters)</li>
+                        
+                        </ul>
+                   
+                    </div>
+                    </div>
+              </div>
+
+              
+
+    
+            
+        </div>
+    </div>
+
+            
+    
+    
+    
+    
+    <div class="animate__animated animate__backInLeft animate__slower">
+    <div class="row">
+
+                <div class="col-md-4">
+                    <div class="c">
+                    <div class="card-body" style="font-family: monospace;">
+                        <h5 class="card-title" style="text-decoration: underline; text-underline-position: under;" >CODING LANGUAGES</h5>
+                        
+                        <ul class="card-text" style="text-align:left;">
+                        
+                            <li >HTML </li>
+                                    <li >CSS </li>
+                                    <li >PHP</li>
+                                    <li >JAVASCRIPT (basics)</li>
+                                    <li >BOOTSTRAP (framework)</li>
+                                    <li >WORDPRESS (framework)</li>
+                                    <li >C (programming)</li>
+                                    <li >PYTHON (programming)</li>
+                        
+                        </ul>
+                   
+                    </div>
+                    </div>
+                  </div>
+              
+                <div class="col-md-4">
+                <div class="c">
+                <div class="card-body" style="font-family: monospace;">
+                    <h5 class="card-title" style="text-decoration: underline; text-underline-position: under;" >SPECIAL SUBJECTS</h5>
+                    
+                    <ul class="card-text" style="text-align:left;">
+                    
+                        <li >Full stack web development (advanced) - 2019</li>
+                        <li >UI/UX design (advanced) - 2021</li>
+                                    <li >Graphics designing (intermediate) - 2020</li>
+                                    <li >Digital marketing <br> (basics) - 2019</li>
+                                    <li >SEO (basics) - 2019</li>
+                                    <li >Electronics & Robotics <br> (levels 1 & 2) - 2016-2019</li>
+                    
+                    </ul>
+               
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="c">
+                    <div class="card-body" style="font-family: monospace;">
+                        <h5 class="card-title" style="text-decoration: underline; text-underline-position: under;" >SOFTWARE KNOWN</h5>
+                        
+                        <ul class="card-text" style="text-align:left;">
+                        
+                            <li >Canva (advanced)</li>
+                                    <li >Adobe Photoshop (advanced) </li>
+                                    <li >Adobe XD (advanced) </li>
+                                    <li >Adobe Illustrator (intermediate) </li>
+                                    <li >Adobe Spark Post (advanced) </li>
+                                    <li >Microsoft office (intermediate)</li>
+                        
+                        </ul>
+                   
+                    </div>
+                    </div>
+              </div>
+
+              
+            </div>
+        </div>
+
+
+
+
+        <div class="animate__animated animate__backInRight animate__slower">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="c">
+                        <div class="card-body" style="font-family: monospace;">
+                            <h5 class="card-title" style="text-decoration: underline; text-underline-position: under;" >DATABASE</h5>
+                            
+                            <ul class="card-text" style="text-align:left;">
+                            
+                
+                                <li >MySQL</li>
+                                <li >MongoDB</li>
+                                <li >Database design and development</li>
+                            
+                            </ul>
+                       
+                        </div>
+                        </div>
+                  </div>
+              
+                <div class="col-md-4">
+                <div class="c">
+                <div class="card-body" style="font-family: monospace;">
+                    <h5 class="card-title" style="text-decoration: underline; text-underline-position: under;" >PROJECTS</h5>
+                    
+                    <ul class="card-text" style="text-align:left;">
+                    
+                        <li >Personal portfolio and résumé website - 2019
+                            <br> <a href="http://adnaanlalani.000webhostapp.com/">Click Here To View</a>
+                        </li>
+                        
+                        <li >College departmental notice board with 2 seperate pathways for faculty and students 
+                            (ID password validation required) - 2020 <br> <a href="http://kjsieitnoticeboard.000webhostapp.com/">Click Here To View</a>
+                            
+                        </li>
+                    
+                    </ul>
+               
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="c">
+                    <div class="card-body" style="font-family: monospace;">
+                        <h5 class="card-title" style="text-decoration: underline; text-underline-position: under;" >OTHER QUALITIES</h5>
+                        
+                        <ul class="card-text" style="text-align:left;">
+                        
+                            <li >Articulate</li>
+                                    <li >Leadership qualities</li>
+                                    <li >Logo designing skills</li>
+                                    <li >Flyer designing skills</li>
+                                    <li >Good command over English Language</li>
+                                    <li >Flexible</li>
+                                    <li >Can play bagpipe</li>
+                                    <li >Good at multitasking</li> 
+                        
+                        </ul>
+                   
+                    </div>
+                    </div>
+              </div>
+            </div>
+              
+
+
+        </div>
+
+
+        <div class="animate__animated animate__tada">
+            <div style="margin-bottom: 10px;">                    
+            <button type="submit" onclick = "window.open('ADNAAN LALANI.pdf')" class="btn btn-primary" style="background-color: #90E0EF ; border: 2px solid whitesmoke;">
+    
+                <i class="fa fa-download" aria-hidden="true"></i> 
+                Download CV
+               
+            </button>
+        </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<footer>
+    <div class="footer-content">
+        <h3>Created with &#128151 by</h3>
+        <h2 style="text-decoration: underline;">Adnaan Lalani</h2>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/adnaan.lalani" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/adnaan22" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/adnaananananana/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCimMndJo89LjU_k5C4mBPdw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://scan.snapchat.com/snapcodes" target="_blank"><i class="fa fa-snapchat"></i></a></li>
+        </ul>
+    </div>
+   
+</footer>
+
+
+
+
+    </body>
